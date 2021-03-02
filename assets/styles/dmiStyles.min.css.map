@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"dmiStyles.min.css","sourcesContent":[]}
+{"version":3,"sources":["_custom.scss"],"names":[],"mappings":"AAAA,UACC,WAAY","file":"dmiStyles.min.css","sourcesContent":["body, html {\r\n\theight: 100%;\r\n}"]}
