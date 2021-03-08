@@ -9,3 +9,6 @@ gulpfile.js
 
 #ignore img folder
 assets/img/
+
+#ignore custom fonts
+assets/styles/HighRise.otf

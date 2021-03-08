@@ -20,6 +20,13 @@ h3, h4, h5, h6 {
 	font-weight: 200;
 
 }
+@font-face {
+    font-family: HighRise;
+    src: url("./HighRise.otf") format("opentype");
+}
+.bh-font {
+	font-family: HighRise;
+}
 .home-hero {
 	width: 100%;
 	min-height: 500px;
