@@ -1,8 +1,8 @@
 <!-- Main Bootstrap Navbar Here -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg fixed-top" style="background: #7A2A11;">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
-			<img src="" alt="" width="30" height="24">
+			<img src="<?php echo get_home_url(); ?>/wp-content/uploads/favicon.png" class="img-circle img-fluid" width="100" height="100" alt="">
 		</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -15,7 +15,7 @@
 				'container'         => '',
 				'container_class'   => '',
 				'container_id'      => '',
-				'menu_class'        => 'navbar-nav me-auto mb-2 mb-lg-0',
+				'menu_class'        => 'navbar-nav ms-auto mb-2 mb-lg-0',
 				'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
 				'walker'            => new WP_Bootstrap_Navwalker(),
 			)); ?>

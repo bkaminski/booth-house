@@ -1,0 +1,16 @@
+.img-circle {
+	border-radius: 50%;
+}
+a.nav-link {
+	color: #DBB37B;
+	font-size: 1.4rem;
+	transition: 0.3s ease-in-out;
+	&:hover {
+		color: #fcc66c;
+		transition: 0.3s ease-in-out;
+	}
+}
+.navbar-nav > .active > a { 
+    color: #fcc66c;
+    text-decoration: underline;
+}

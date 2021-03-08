@@ -6,3 +6,6 @@ assets/js/scritps.js
 
 #ignore gulpfile
 gulpfile.js
+
+#ignore img folder
+assets/img/

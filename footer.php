@@ -1,4 +1,4 @@
-<footer>
+<footer class="footer mt-5 pb-5">
 
 
 </footer>

@@ -1,3 +1,41 @@
 body, html {
-	height: 100%;
+    height: 100%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #000;
+    font-size: 1.2rem; 
+}
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+h2 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	color: #000;
+}
+h3, h4, h5, h6 {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-transform: uppercase;
+	font-weight: 200;
+
+}
+.home-hero {
+	width: 100%;
+	min-height: 500px;
+	position: relative;
+}
+.center-hv {
+	padding: 200px 0;
+  	text-align: center;
+}
+.c19 {
+	min-height: 50px;
+	background: #000;
+	color: #fff;
+}
+.footer {
+	width: 100%;
+	min-height: 300px;
+	background: #000;
 }
