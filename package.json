@@ -26,6 +26,8 @@
   },
   "dependencies": {
     "bourbon": "^7.0.0",
+    "braces": "^2.3.2",
+    "browser-sync": "^2.26.14",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",
     "gulp-load-plugins": "^2.0.6",

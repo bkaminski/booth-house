@@ -9,6 +9,9 @@ h1 {
 	font-weight: 400;
 	text-transform: uppercase;
 }
+h1.main-title {
+	text-transform: inherit;
+}
 h2 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;

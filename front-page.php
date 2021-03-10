@@ -4,4 +4,6 @@
 
 <?php echo get_template_part('parts/home', 'drops'); ?>
 
+
+
 <?php get_footer(); ?>
