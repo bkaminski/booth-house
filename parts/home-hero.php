@@ -1,7 +1,7 @@
 <header>
-	<div class="home-hero">
-		<div class="container">
-			<h1 class="center-hv bh-font display-1 main-title" style="min-height:500px;">Booth House Tavern</h1>
+	<div class="home-hero pt-2">
+		<div class="container text-center pt-5">
+			<img class="img-fluid pt-5" src="<?php echo get_home_url(); ?>/wp-content/uploads/bh-hero-logo.png" width="480" />
 		</div>
 	</div>
 </header>

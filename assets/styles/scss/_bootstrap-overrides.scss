@@ -14,3 +14,56 @@ a.nav-link {
     color: #fcc66c;
     text-decoration: underline;
 }
+.accordion-button:focus {
+	border-color: transparent;
+	box-shadow: 0 0 0 .0rem rgba(13,110,253,.25);
+}
+.bh-accordion {
+	background: #7A2A11;
+	&:active {
+		background: #7A2A11;
+	}
+}
+.dfi-accordion {
+	background: #DBB37B;
+	&:active {
+		background: #DBB37B;
+	}
+}
+.cafe-accordion {
+	background: #010101;
+	&:active {
+		background: #010101;
+	}
+}
+.hammer-accordion {
+	background: #745b58;
+	&:active {
+		background: #745b58;
+	}
+}
+.bh-accordion .accordion-button:not(.collapsed) {
+    color: #fcc66c;
+    background-color: #7A2A11;
+}
+.dfi-accordion .accordion-button:not(.collapsed) {
+    color: #7A2A11;
+    background-color: #DBB37B;
+}
+.cafe-accordion .accordion-button:not(.collapsed) {
+    color: #DBB37B;
+    background-color: #010101;
+}
+.hammer-accordion .accordion-button:not(.collapsed) {
+    color: #DBB37B;
+    background-color: #745b58;
+}
+.bh-accordion-body, .dfi-accordion-body, .cafe-accordion-body, .hammer-accordion-body {
+	background-color: #E0DEDD;
+	color: #000;
+}
+.collapse-heading {
+	font-size: 1.5rem;
+	margin-left: 1rem;
+	font-weight: bold;
+}

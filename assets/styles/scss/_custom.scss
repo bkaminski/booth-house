@@ -32,8 +32,16 @@ h3, h4, h5, h6 {
 }
 .home-hero {
 	width: 100%;
-	min-height: 500px;
+	min-height: 550px;
 	position: relative;
+	background: url('../../../../uploads/bhbg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.home-options {
+	border-top: 4px solid #DBB37B;
+	background: radial-gradient(circle, rgba(1,1,1,1) 0%, rgba(1,1,1,1) 16%, rgba(96,35,16,1) 100%);
 }
 .center-hv {
 	padding: 200px 0;
