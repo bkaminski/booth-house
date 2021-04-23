@@ -6,10 +6,10 @@
 		</small>
 	</p>
 </div>
-<nav class="navbar navbar-expand-lg sticky-top" style="background: #7A2A11;">
+<nav class="navbar navbar-expand-lg sticky-top" style="background: #020202;">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
-			<img src="<?php echo get_home_url(); ?>/wp-content/uploads/favicon.png" class="img-circle img-fluid" width="100" height="100" alt="Booth House Tavern Icon">
+			<img src="<?php echo get_home_url(); ?>/wp-content/uploads/booth-house-icon-small.png" class="img-fluid" width="75" height="100" alt="Booth House Tavern Icon">
 		</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
 			<i class="fas fa-bars fa-2x text-white"></i>

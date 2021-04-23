@@ -41,7 +41,13 @@ h3, h4, h5, h6 {
 }
 .home-options {
 	border-top: 4px solid #DBB37B;
-	background: radial-gradient(circle, rgba(1,1,1,1) 0%, rgba(1,1,1,1) 16%, rgba(96,35,16,1) 100%);
+	background: radial-gradient(circle, rgba(96,35,16,1) 18%, rgba(1,1,1,1) 65%);
+}
+.geo-map {
+	width: 100%;
+	min-height: 400px;
+	background: #020202;
+	border-top: 4px solid #7A2A11;
 }
 .center-hv {
 	padding: 200px 0;
@@ -49,12 +55,27 @@ h3, h4, h5, h6 {
 }
 .c19 {
 	height: 50px;
-	background: #000;
+	background: #7A2A11;
 	color: #fff;
 	position: relative;
 }
 .footer {
+	position: relative;
 	width: 100%;
 	min-height: 300px;
-	background: #000;
+	background: url('../../../../uploads/bh-footer-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer-img {
+	position: absolute;
+	margin-left: 3rem;
+}
+.copyright {
+	font-size: 0.9rem;
+	position: absolute;
+	bottom: 0;
+	right:25%;
+    left:50%;
+    margin-left:-150px;
 }

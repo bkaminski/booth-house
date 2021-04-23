@@ -1,6 +1,7 @@
 <section>
 	<div class="home-options">
 		<div class="container pt-5 pb-5">
+			<h1 class="text-center text-white pb-5">The Booth House Family</h1>
 			<div class="accordion accordion-flush" id="accordionFlush">
 				<div class="accordion-item bh-accordion">
 					<h2 class="accordion-header" id="flush-headingOne">
