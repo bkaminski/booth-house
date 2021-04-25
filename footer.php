@@ -1,4 +1,7 @@
 <footer class="footer pt-3 pb-5">
+	<a href="javascript:" id="scroll" class="text-center" title="Back to Top">
+		<i class="fas fa-chevron-up fa-lg" style="color:#020202;"></i>
+	</a>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-4 pt-3">

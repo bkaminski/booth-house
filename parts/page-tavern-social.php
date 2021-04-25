@@ -1,22 +1,22 @@
 <aside>
 	<div class="tavern-social">
-		<div class="container pt-5">
+		<div class="container pt-5 pb-5">
 			<div class="row pt-5">
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 text-center pb-3">
 					<a href="https://www.facebook.com/Booth-House-Tavern-104993804997229" class="text-white" target="_blank">
 						<i class="fab fa-facebook-square fa-3x pb-3"></i>
 						<br />
 						Facebook
 					</a>
 				</div>
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 text-center pb-3">
 					<a href="" class="text-white" target="_blank">
 						<i class="fab fa-instagram-square fa-3x pb-3"></i>
 						<br />
 						Instagram
 					</a>
 				</div>
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 text-center pb-3">
 					<a href="" class="text-white" target="_blank">
 						<i class="fas fa-map-marked-alt fa-3x pb-3"></i>
 						<br />
