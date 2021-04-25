@@ -14,7 +14,7 @@
 						<div class="bh-accordion-body accordion-body">
 							The Booth House Tavern Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum odio id justo posuere faucibus. Integer vel ante viverra, luctus tortor id, tristique lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum efficitur molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 							<div class="text-center pt-3">
-								<a href="#" class="btn btn-success rounded-pill px-5">Our Menu</a>
+								<a href="<?php echo get_home_url(); ?>/booth-house-tavern/" class="btn btn-success rounded-pill px-5">Our Menu</a>
 							</div>
 						</div>
 					</div>
@@ -29,7 +29,7 @@
 						<div class="accordion-body dfi-accordion-body">
 							The David Finney Inn Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum odio id justo posuere faucibus. Integer vel ante viverra, luctus tortor id, tristique lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum efficitur molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 							<div class="text-center pt-3">
-								<a href="#" class="btn btn-success rounded-pill px-5">Check Availability</a>
+								<a href="<?php echo get_home_url(); ?>/david-finney-inn/" class="btn btn-success rounded-pill px-5">Check Availability</a>
 							</div>
 						</div>
 					</div>
@@ -44,7 +44,7 @@
 						<div class="accordion-body cafe-accordion-body">
 							The David Finney Inn Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum odio id justo posuere faucibus. Integer vel ante viverra, luctus tortor id, tristique lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum efficitur molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 							<div class="text-center pt-3">
-								<a href="#" class="btn btn-success rounded-pill px-5">See What's New</a>
+								<a href="<?php echo get_home_url(); ?>/dfi-cafe/" class="btn btn-success rounded-pill px-5">See What's New</a>
 							</div>
 						</div>
 					</div>
@@ -59,7 +59,7 @@
 						<div class="accordion-body hammer-accordion-body">
 							Hammergod Brewing Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum odio id justo posuere faucibus. Integer vel ante viverra, luctus tortor id, tristique lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum efficitur molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 							<div class="text-center pt-3">
-								<a href="#" class="btn btn-success rounded-pill px-5">What's on Tap?</a>
+								<a href="<?php echo get_home_url(); ?>/hammergod-brewery/" class="btn btn-success rounded-pill px-5">What's on Tap?</a>
 							</div>
 						</div>
 					</div>

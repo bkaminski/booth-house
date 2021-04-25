@@ -3,6 +3,12 @@ body, html {
     font-family: 'Barlow Semi Condensed', sans-serif;
     color: #000;
     font-size: 1.2rem; 
+    padding-top: 42px;
+}
+body.page-template-page-tavern-php {
+	height: 100%;
+	background: #7A2A11;
+	color: #fff;
 }
 h1 {
 	font-family: 'Poppins', sans-serif;
@@ -35,6 +41,15 @@ h3, h4, h5, h6 {
 	min-height: 550px;
 	position: relative;
 	background: url('../../../../uploads/bhbg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.tavern-hero {
+	width: 100%;
+	min-height: 550px;
+	position: relative;
+	background: url('../../../../uploads/bht-interior-bg.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -78,4 +93,21 @@ h3, h4, h5, h6 {
 	right:25%;
     left:50%;
     margin-left:-150px;
+}
+.text-shadow {
+	text-shadow: 4px 4px #020202;
+}
+.text-gold {
+	color: #DBB37B;
+}
+.reservations {
+	background: #ccc;
+	min-height: 300px;
+	width: 100%;
+}
+.tavern-social {
+	background: #020202;
+	min-height: 350px;
+	color: #fff;
+	width: 100%;
 }

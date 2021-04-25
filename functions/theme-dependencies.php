@@ -29,7 +29,5 @@ add_action('wp_enqueue_scripts', 'enqueue_waypoints_deps');
 require_once get_template_directory() . '/functions/class-wp-bootstrap-navwalker.php';
 register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'dmi-theme' ),
-    'secondary_menu' => __('Secondary Menu', 'dmi-theme'),
-    'footer_menu' => __( 'Footer Menu', 'dmi-theme'),  
 ));
 

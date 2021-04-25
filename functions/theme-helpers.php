@@ -90,3 +90,18 @@ function vc_remove_wp_ver_css_js( $src ) {
 add_filter( 'style_loader_src', 'vc_remove_wp_ver_css_js', 9999 );
 add_filter( 'script_loader_src', 'vc_remove_wp_ver_css_js', 9999 );
 
+//Wordpress Fluid Images Bootstrap 5
+function bootstrap_fluid_images( $html ){
+  $classes = 'img-fluid'; // Bootstrap 5
+  // check if there are already classes assigned to the anchor
+  if ( preg_match('/<img.*? class="/', $html) ) {
+    $html = preg_replace('/(<img.*? class=".*?)(".*?\/>)/', '$1 ' . $classes . ' $2', $html);
+  } else {
+    $html = preg_replace('/(<img.*?)(\/>)/', '$1 class="' . $classes . '" $2', $html);
+  }
+  // remove dimensions from images,, does not need it!
+  $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
+  return $html;
+}
+add_filter( 'the_content','bootstrap_fluid_images',10 );
+add_filter( 'post_thumbnail_html', 'bootstrap_fluid_images', 10 );
