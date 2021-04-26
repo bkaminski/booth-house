@@ -12,7 +12,7 @@
 
 <?php echo get_template_part('parts/page', 'tavern-main'); ?>
 
-<?php echo get_template_part('parts/page', 'reservations'); ?>
+<?php echo get_template_part('parts/page', 'tavern-reservations'); ?>
 
 <?php echo get_template_part('parts/page', 'tavern-social'); ?>
 
