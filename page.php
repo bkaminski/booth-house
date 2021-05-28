@@ -6,7 +6,7 @@
 			<div class="col-lg-12">
 				<?php the_content(); ?>
 
-				<br />
+			<br />
 			</div>
 		</div>
 		<?php endwhile; else : ?>

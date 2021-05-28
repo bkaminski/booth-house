@@ -6,4 +6,6 @@
 
 <?php echo get_template_part('parts/home', 'map'); ?>
 
+<?php echo get_template_part('parts/page', 'careers'); ?>
+
 <?php get_footer(); ?>

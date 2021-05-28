@@ -10,7 +10,7 @@
 
 <?php echo get_template_part('parts/page', 'cafe-hero'); ?>
 
-<?php echo get_template_part('parts/page', 'cafe-main'); ?>
+<?php echo get_template_part('parts/page', 'loop-main'); ?>
 
 <?php echo get_template_part('parts/page', 'cafe-reservations'); ?>
 

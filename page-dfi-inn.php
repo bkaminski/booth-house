@@ -10,7 +10,7 @@
 
 <?php echo get_template_part('parts/page', 'dfi-hero'); ?>
 
-<?php echo get_template_part('parts/page', 'dfi-main'); ?>
+<?php echo get_template_part('parts/page', 'loop-main'); ?>
 
 <?php echo get_template_part('parts/page', 'dfi-reservations'); ?>
 

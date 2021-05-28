@@ -52,14 +52,14 @@
 				<div class="accordion-item hammer-accordion">
 					<h2 class="accordion-header" id="flush-headingFour">
 						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/" width="75" class="img-fluid" alt="Hammergod Brewing Icon" /><span class="collapse-heading" style="color: #DBB37B;">Hammergod Brewing</span>
+							<i class="fas fa-beer fa-3x text-white"></i><span class="collapse-heading" style="color: #DBB37B; padding-left: 1.5rem;">Hammergod Brewing</span>
 						</button>
 					</h2>
 					<div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlush">
 						<div class="accordion-body hammer-accordion-body">
-							Hammergod Brewing Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum odio id justo posuere faucibus. Integer vel ante viverra, luctus tortor id, tristique lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum efficitur molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+							When Lightning Strikes, it’s HammerGod! Sample the micro-brewed goodness of HammerGod Brewing Company – an in-house brewing and bottling company made to reflect the regal tenacity of our small-but-mighty First State.
 							<div class="text-center pt-3">
-								<a href="<?php echo get_home_url(); ?>/hammergod-brewery/" class="btn btn-success rounded-pill px-5">What's on Tap?</a>
+								<a href="<?php echo get_home_url(); ?>/hammergod-brewery/" class="btn btn-success rounded-pill px-5">More Information</a>
 							</div>
 						</div>
 					</div>

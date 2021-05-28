@@ -18,7 +18,21 @@ body.page-template-page-dfi-inn-php {
 body.page-template-page-dfi-cafe-php {
 	height: 100%;
 	background: #DBB37B;
+	color: #010101;
+}
+body.page-template-page-hammergod-php {
+	height: 100%;
+	background: #010101;
+	color: #DBB37B;
+}
+body.page-template-page-about-php {
+	height: 100%;
+	background: #010101;
 	color: #fff;
+}
+.page-template-page-tavern-php > .main-loop > h1,
+.page-template-page-dfi-inn-php > .main-loop > h1 {
+	text-shadow: 2px 2px 4px #020202;
 }
 h1 {
 	font-family: 'Poppins', sans-serif;
@@ -37,7 +51,6 @@ h3, h4, h5, h6 {
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	text-transform: uppercase;
 	font-weight: 200;
-
 }
 @font-face {
     font-family: HighRise;
@@ -46,7 +59,7 @@ h3, h4, h5, h6 {
 .bh-font {
 	font-family: HighRise;
 }
-.home-hero, .tavern-hero, .dfi-hero, .cafe-hero {
+.home-hero, .tavern-hero, .dfi-hero, .cafe-hero, .hg-hero, .about-hero {
 	width: 100%;
 	min-height: 550px;
 	position: relative;
@@ -94,6 +107,9 @@ h3, h4, h5, h6 {
 .text-gold {
 	color: #DBB37B;
 }
+.text-black {
+	color: #020202;
+}
 .reservations {
 	background: #ccc;
 	min-height: 300px;
@@ -104,6 +120,14 @@ h3, h4, h5, h6 {
 	min-height: 350px;
 	color: #fff;
 	width: 100%;
+}
+.careers {
+	width: 100%;
+	min-height: 300px;
+	position: relative;
+	background: #583925;
+	border-top: 4px solid #DBB37B;
+	border-bottom: 4px solid #DBB37B;
 }
 #scroll {
 position: fixed;

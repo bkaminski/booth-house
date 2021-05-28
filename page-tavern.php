@@ -10,7 +10,7 @@
 
 <?php echo get_template_part('parts/page', 'tavern-hero'); ?>
 
-<?php echo get_template_part('parts/page', 'tavern-main'); ?>
+<?php echo get_template_part('parts/page', 'loop-main'); ?>
 
 <?php echo get_template_part('parts/page', 'tavern-reservations'); ?>
 
