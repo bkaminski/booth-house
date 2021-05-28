@@ -17,7 +17,7 @@
 					</a>
 				</div>
 				<div class="col-md-4 text-center pb-3">
-					<a href="" class="text-white" target="_blank">
+					<a href="https://goo.gl/maps/1eJkuE9QqeRSnuCLA" class="text-white" target="_blank">
 						<i class="fas fa-map-marked-alt fa-3x"></i>
 						<br />
 						Directions
