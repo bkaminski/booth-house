@@ -1,6 +1,22 @@
 //jQuery no-conflict mode
 (function( $ ) {
 
+	// Preloader
+	$(window).on('load', function() {
+		setTimeout(function(){
+    		$('#preloader').fadeOut('slow', function () {	
+    		});
+    	}, 0);
+	});
+
+	//Delay logo load
+	$( document ).ready(function() {
+		var $img = $('.hero--img').addClass('visible');
+		setTimeout(function() {
+			$img.removeClass('invisible');
+		}, 2000);
+	});
+
 	//Scroll to top button
 	$(document).ready(function(){ 
 	    $(window).scroll(function(){ 
@@ -26,7 +42,7 @@
 	//Parallax Background
 	$window = $(window);
 	   $('section[data-type="background"]').each(function(){
-	     var $scroll = jQuery(this);
+	     var $scroll = $(this);
 	      $(window).scroll(function() {                   
 	        var yPos = -($window.scrollTop() / $scroll.data('speed'));
 	        var coords = '50% '+ yPos + 'px';
@@ -34,7 +50,7 @@
 	      }); 
 	   });
 
-	$(); 
+	$();
 
 })( jQuery );
 //jQuery no-conflict mode
@@ -43,4 +59,13 @@
 
 
 
+})( jQuery );
+(function( $ ) {
+	$( document ).ready(function() {
+		$('.hero--img').waypoint(function() {
+			$('.hero--img').find('img').addClass('animated fadeInUp');
+		}, {
+			offset: '100%'
+		});
+	});
 })( jQuery );

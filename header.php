@@ -11,5 +11,7 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-	
+<div id="preloader">
+	<p class="text-center h5 loadtext text-white bh-font">Booth House is loading...</p>
+</div>	
 <?php get_template_part( 'parts/page', 'main-nav' ); ?>
