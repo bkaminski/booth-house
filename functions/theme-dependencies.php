@@ -24,3 +24,4 @@ require_once get_template_directory() . '/functions/class-wp-bootstrap-navwalker
 register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'dmi-theme' ),
 ));
+
