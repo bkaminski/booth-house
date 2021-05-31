@@ -12,9 +12,9 @@
 					</h2>
 					<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush">
 						<div class="bh-accordion-body accordion-body">
-							The Booth House Tavern Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum odio id justo posuere faucibus. Integer vel ante viverra, luctus tortor id, tristique lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum efficitur molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+							<?php echo the_field('booth_house_tavern_text'); ?>
 							<div class="text-center pt-3">
-								<a href="<?php echo get_home_url(); ?>/booth-house-tavern/" class="btn btn-success rounded-pill px-5">Our Menu</a>
+								<a href="<?php echo get_home_url(); ?>/booth-house-tavern/" class="btn btn-success rounded-pill px-5">Reserve a Table</a>
 							</div>
 						</div>
 					</div>
@@ -27,7 +27,7 @@
 					</h2>
 					<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush">
 						<div class="accordion-body dfi-accordion-body">
-							The David Finney Inn Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum odio id justo posuere faucibus. Integer vel ante viverra, luctus tortor id, tristique lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum efficitur molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+							<?php echo the_field('david_finney_inn_text'); ?>ficitur molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 							<div class="text-center pt-3">
 								<a href="<?php echo get_home_url(); ?>/david-finney-inn/" class="btn btn-success rounded-pill px-5">Check Availability</a>
 							</div>
@@ -42,7 +42,7 @@
 					</h2>
 					<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlush">
 						<div class="accordion-body cafe-accordion-body">
-							The David Finney Inn Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum odio id justo posuere faucibus. Integer vel ante viverra, luctus tortor id, tristique lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum efficitur molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+							<?php echo the_field('dfi_cafe_text'); ?>
 							<div class="text-center pt-3">
 								<a href="<?php echo get_home_url(); ?>/dfi-cafe/" class="btn btn-success rounded-pill px-5">See What's New</a>
 							</div>
@@ -57,7 +57,7 @@
 					</h2>
 					<div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlush">
 						<div class="accordion-body hammer-accordion-body">
-							When Lightning Strikes, it’s HammerGod! Sample the micro-brewed goodness of HammerGod Brewing Company – an in-house brewing and bottling company made to reflect the regal tenacity of our small-but-mighty First State.
+							<?php echo the_field('hammergod_text'); ?>
 							<div class="text-center pt-3">
 								<a href="<?php echo get_home_url(); ?>/hammergod-brewery/" class="btn btn-success rounded-pill px-5">More Information</a>
 							</div>
