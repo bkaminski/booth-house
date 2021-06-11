@@ -12,4 +12,6 @@
 
 <?php echo get_template_part('parts/page', 'loop-main'); ?>
 
+<?php echo get_template_part('parts/home', 'map'); ?>
+
 <?php get_footer(); ?>

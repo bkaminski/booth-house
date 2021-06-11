@@ -27,7 +27,7 @@
 					</h2>
 					<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush">
 						<div class="accordion-body dfi-accordion-body">
-							<?php echo the_field('david_finney_inn_text'); ?>ficitur molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+							<?php echo the_field('david_finney_inn_text'); ?>
 							<div class="text-center pt-3">
 								<a href="<?php echo get_home_url(); ?>/david-finney-inn/" class="btn btn-success rounded-pill px-5">Check Availability</a>
 							</div>

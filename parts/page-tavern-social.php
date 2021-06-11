@@ -10,7 +10,7 @@
 					</a>
 				</div>
 				<div class="col-md-4 text-center pb-3">
-					<a href="" class="text-white" target="_blank">
+					<a href="https://www.instagram.com/boothhousetavern/" class="text-white" target="_blank">
 						<i class="fab fa-instagram-square fa-3x"></i>
 						<br />
 						Instagram

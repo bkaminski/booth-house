@@ -12,8 +12,6 @@
 
 <?php echo get_template_part('parts/page', 'loop-main'); ?>
 
-<?php echo get_template_part('parts/page', 'reservations'); ?>
-
 <?php echo get_template_part('parts/page', 'hg-social'); ?>
 
 <?php get_footer(); ?>
