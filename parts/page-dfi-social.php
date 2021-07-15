@@ -10,11 +10,11 @@
 					</a>
 				</div>
 				<div class="col-md-4 text-center pb-3">
-					<a href="" class="text-white" target="_blank">
+					<!-- <a href="#" class="text-white" target="_blank"> -->
 						<i class="fab fa-instagram-square fa-3x"></i>
 						<br />
 						Instagram
-					</a>
+					<!-- </a> -->
 				</div>
 				<div class="col-md-4 text-center pb-3">
 					<a href="https://goo.gl/maps/1eJkuE9QqeRSnuCLA" class="text-white" target="_blank">

@@ -33,4 +33,5 @@
 </footer>
 <?php wp_footer(); ?>
 </body>
+<!-- Custom developed / designed WordPress Theme made exclusively for Booth House Tavern by The DMI Group. https://thedmigroup.com -->
 </html>

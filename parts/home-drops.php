@@ -6,7 +6,7 @@
 				<div class="accordion-item bh-accordion">
 					<h2 class="accordion-header" id="flush-headingOne">
 						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/booth-house-icon-small.png" width="75" class="img-fluid" alt="Booth House Inn Icon" /><span class="collapse-heading" style="color: #fcc66c;">Booth House Tavern
+							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/booth-house-icon-home.png" width="75" class="img-fluid" alt="Booth House Inn Icon" /><span class="collapse-heading" style="color: #fcc66c;">Booth House Tavern
 							</span>
 						</button>
 					</h2>
@@ -22,7 +22,7 @@
 				<div class="accordion-item dfi-accordion">
 					<h2 class="accordion-header" id="flush-headingTwo">
 						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/dfi-icon.png" width="75" class="img-fluid" alt="David Finney Inn Icon" /><span class="collapse-heading" style="color: #7A2A11;">David Finney Inn</span>
+							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/dfi-icon-home.png" width="75" class="img-fluid" alt="David Finney Inn Icon" /><span class="collapse-heading" style="color: #7A2A11;">David Finney Inn</span>
 						</button>
 					</h2>
 					<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush">
@@ -37,7 +37,7 @@
 				<div class="accordion-item cafe-accordion">
 					<h2 class="accordion-header" id="flush-headingThree">
 						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/dfi-cafe-icon.png" width="75" class="img-fluid" alt="The Cafe at David Finney Inn Icon" /><span class="collapse-heading" style="color: #DBB37B;">The DFI Cafe</span>
+							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/cafe-icon-home.png" width="75" class="img-fluid" alt="The Cafe at David Finney Inn Icon" /><span class="collapse-heading" style="color: #DBB37B;">The DFI Cafe</span>
 						</button>
 					</h2>
 					<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlush">
