@@ -33,6 +33,12 @@ a.nav-link {
 		background: #7A2A11;
 	}
 }
+.bh-menu-accordion {
+	background: #ccc;
+	&:active {
+		background: #ccc;
+	}
+}
 .dfi-accordion {
 	background: #DBB37B;
 	&:active {
@@ -51,6 +57,10 @@ a.nav-link {
 		background: #745b58;
 	}
 }
+.accordion-button:not(.collapsed) {
+    color: #010101;
+    background: #ccc;
+}
 .bh-accordion .accordion-button:not(.collapsed) {
     color: #fcc66c;
     background-color: #7A2A11;
@@ -67,7 +77,10 @@ a.nav-link {
     color: #DBB37B;
     background-color: #745b58;
 }
-.bh-accordion-body, .dfi-accordion-body, .cafe-accordion-body, .hammer-accordion-body {
+.bh-accordion-body, 
+.dfi-accordion-body, 
+.cafe-accordion-body, 
+.hammer-accordion-body {
 	background-color: #E0DEDD;
 	color: #000;
 }

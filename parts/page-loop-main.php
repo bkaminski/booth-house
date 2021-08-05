@@ -7,6 +7,13 @@
 
 				<br />
 			</div>
+			<?php if ( is_page(18) ) {
+				
+				echo get_template_part('parts/page', 'tavern-menu');
+			
+			} else {
+				//do nothing
+			} ?>
 		</div>
 		<?php endwhile; else : ?>
 			<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
