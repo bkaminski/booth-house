@@ -92,3 +92,9 @@ a.nav-link {
 .card {
 	border-radius: 0px;
 }
+.nav-pills .nav-link.active, 
+.nav-pills .show > .nav-link {
+    color: #010101;
+    background-color: #DBB37B;
+    font-weight: bold;
+}
